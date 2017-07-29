@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Second test post!"
 date:   2017-07-29 13:10:53 +0100
 categories: tech start
 tag: life
@@ -24,6 +24,7 @@ print_hi('Tom')
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+**/
 
 var disqus_config = function () {
 this.page.url = https://waliahimanshu.github.io/jekyll/update/2017/07/28/welcome-to-jekyll.html;  // Replace PAGE_URL with your page's canonical URL variable
