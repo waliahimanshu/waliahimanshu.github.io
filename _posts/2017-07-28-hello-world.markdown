@@ -1,23 +1,13 @@
 ---
 layout: post
 title:  Hello World!"
-date:   2017-07-28 13:10:53 +0100
 categories: start
 tag: life
 ---
 Hello World!
-jhjhf
-
-[order](https://www.captaintrain.com/order/)
 
 
+[order](https://www.trainline.eu/order/iz2xt5jt79vftnv9gep)
 
-{% highlight java %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 {% include disqus_comments.html %}
