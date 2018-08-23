@@ -6,9 +6,11 @@ categories: start
 tag: life
 ---
 Hello World!
-
+jhjhf
 
 [order](https://www.captaintrain.com/order/)
+
+
 
 {% highlight java %}
 def print_hi(name)
