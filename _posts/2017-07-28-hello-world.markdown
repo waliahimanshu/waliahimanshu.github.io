@@ -7,6 +7,9 @@ tag: life
 ---
 Hello World!
 
+
+[order](https://www.captaintrain.com/order/)
+
 {% highlight java %}
 def print_hi(name)
   puts "Hi, #{name}"
