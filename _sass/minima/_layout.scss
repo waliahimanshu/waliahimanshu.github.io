@@ -10,7 +10,11 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 }
-
+.img-circle{
+  display: inline;
+  margin: 0 auto;
+  border-radius: 50%;
+}
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
