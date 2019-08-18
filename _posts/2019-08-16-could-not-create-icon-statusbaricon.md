@@ -4,7 +4,10 @@ title: "Bad notification posted from package : Couldn't create icon: StatusBarIc
 categories: Android
 author: "waliahimanshu"
 meta: "android notification error"
+<<<<<<< HEAD
 categories: Android
+=======
+>>>>>>> 1fe26ec0f5968271245e164d1442f0b6f5d79b45
 ---
 
 Exception:

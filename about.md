@@ -8,8 +8,13 @@ permalink: /about/
 </a></p>
 
 <b>
+<<<<<<< HEAD
 I am trying to write my thoughts here so that I am forced to articulate
 and fill gaps in my understanding and ideas, which are otherwise disconnected and muddy.
+=======
+I am trying to write my thoughts here so that I am forced to articulate 
+my understanding and ideas, which are otherwise disconnected and muddy.
+>>>>>>> 1fe26ec0f5968271245e164d1442f0b6f5d79b45
 </b>
 
 

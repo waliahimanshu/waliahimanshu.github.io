@@ -1,0 +1,9 @@
+adb tcpip 5555. 
+`adb shell netcfg` or `adb shell ifconfig`
+adb connect <DEVICE_IP_ADDRESS>:5555. 
+ 
+`adb usb`
+More than one DEVICE_IP_ADDRESS
+adb -s <DEVICE_IP_ADDRESS>:5555 usb.
+
+
