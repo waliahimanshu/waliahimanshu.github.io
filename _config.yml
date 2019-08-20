@@ -14,7 +14,9 @@ disqus:
 minima:
   date_format: "%b %-d, %Y"
 
-  # generate social links in footer
+google_analytics: UA-146062880-1
+
+  # generate social link in footer
   social_links:
     twitter: waliahimanshu
     github: waliahimanshu
