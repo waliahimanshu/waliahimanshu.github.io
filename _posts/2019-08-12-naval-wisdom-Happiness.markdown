@@ -1,24 +1,12 @@
 ---
 layout: post
+comments: true
 title: "Wisdom from Naval- Happiness"
 categories: todo
 author: "waliahimanshu"
 meta: "Ideation"
 categories: Personal
-
 ---
-
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 ### Happiness:
 If fitness can be choice, health can be choice, nutrition can be a choice, working hard and making money can be a choice than _happiness can also be a choice_.
@@ -113,7 +101,3 @@ _but also the most rewarding one._
 -sunlight..
 -nature...
 -Happy thoughts disappear and negative linger...but if you think  more positive ..
-
-
-
-{% include disqus_comments.html %}

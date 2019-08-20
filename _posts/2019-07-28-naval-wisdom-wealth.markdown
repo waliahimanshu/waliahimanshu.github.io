@@ -1,10 +1,9 @@
 ---
 layout: post
+comments: true
 title: "Wisdom from Naval- Wealth"
-categories: todo
 author: "waliahimanshu"
 meta: "Ideation"
-
 ---
 
 ### My notes from Joe Rogan podcast with Naval
@@ -58,6 +57,3 @@ imaginary tomorrow.
 ----------
 
 ## Happiness:
-
-
-{% include disqus_comments.html %}

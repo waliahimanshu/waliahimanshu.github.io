@@ -1,13 +1,10 @@
 ---
 layout: post
 title: "Bad notification posted from package : Couldn't create icon: StatusBarIcon"
-categories: Android
+comments: true
 author: "waliahimanshu"
 meta: "android notification error"
-<<<<<<< HEAD
 categories: Android
-=======
->>>>>>> 1fe26ec0f5968271245e164d1442f0b6f5d79b45
 ---
 
 Exception:
@@ -43,11 +40,3 @@ So Android framework only allows alpha only icons as they will be visible on any
  .setColor(ContextCompat.getColor(applicationContext, R.color.green)) 
  // adds your brand color over alpha icon
 ```
-
-
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
-
-
