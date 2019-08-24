@@ -1,23 +1,23 @@
 title: Himanshu Walia
 author: waliahimanshu
 email: himanshu.walia@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
- Bite size articles on android development learning and things.
+description: Bite size articles on android development learning and things.
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 disqus:
-    shortname: hwalia-com
+  shortname: hwalia-com
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
 
+# Google Analytics
 google_analytics: UA-146062880-1
 
   # generate social link in footer
-  social_links:
+social_links:
     twitter: waliahimanshu
     github: waliahimanshu
     instagram: waliahimanshu
