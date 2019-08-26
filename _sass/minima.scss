@@ -44,6 +44,18 @@ $on-large:         $on-laptop !default;
   }
 }
 
+hr {
+    color:  #f66a0a;
+    height: 27px;
+    margin: 3.25rem auto;
+    background-size: 100% 26px;
+    background-image: linear-gradient(180deg,transparent 1px,transparent 11px,#f66a0a 0,#f66a0a 15px,transparent 0,transparent 26px);
+}
+
+hr, img {
+    border: 0;
+    display: block;
+}
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }

@@ -51,7 +51,7 @@ In short people are favouring *time and location independence*.
 >Retirement is when you stop sacrificing today for some 
 imaginary tomorrow.
 
-----------
-
-
 ⏭️ [Happiness]({% post_url 2019-08-12-naval-wisdom-Happiness %})
+
+
+<hr>

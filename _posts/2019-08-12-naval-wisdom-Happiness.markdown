@@ -34,18 +34,13 @@ In order to stay peaceful and happy, block:
 2. snippets taken out of context, modified shared on news and in social media. If paid attention, they will clutter the mind.
 3. The world reflects your own feeling back at you. The more you judge (annoy by little things) the more you separate from others, see negative things.
 4. Watch your own thoughts, why i am having that thought does this serve me anymore, often when you understand why you have that thought, you feel calmer.
-<br>
 
--------------
-
-<br>
 *Ancient Struggle*, were against other tribes, religion and food.
 *Modern society struggles*, is with yourself. 
 
 Parents, friends don't live nearby, no tribal meaning, no religion connection.
 When they come to attack you : social media algorithms, video games, sugar, porn you stand alone
 These all are diseases of abundance, over exposure to everything, so *the way to survive is to be ascetic, retreat from society beliefs. _Turn it off_ 
-
 
 [![](http://img.youtube.com/vi/OqlfWDyS1Io/0.jpg)](http://www.youtube.com/watch?v=OqlfWDyS1Io "The Modern Struggle - Naval Ravikant")
 
@@ -63,9 +58,6 @@ Meditation :
 
 > You have got one life, do many different things
 
--------------
-
-
 ## What is the meaning of life? 
 
 If there was a single answer, then we will compete with each other.
@@ -82,3 +74,5 @@ Just :
 - Hug more.
 - Go out in nature and in Sunlight.
 - Happy thoughts disappear and negative linger, but you can trick your mind by looking positive aspects in every scenario.
+
+<hr>

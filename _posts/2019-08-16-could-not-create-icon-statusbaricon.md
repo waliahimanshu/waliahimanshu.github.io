@@ -7,7 +7,7 @@ meta: "android notification error"
 categories: Android
 ---
 
-Exception:
+<b>Exception</b>:
 *android.app.RemoteServiceException: Bad notification posted from package : Couldn't create icon: StatusBarIcon*
 
 ### Fix
@@ -40,3 +40,5 @@ So Android framework only allows alpha only icons as they will be visible on any
  .setColor(ContextCompat.getColor(applicationContext, R.color.green)) 
  // adds your brand color over alpha icon
 ```
+
+<hr>
