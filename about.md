@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p><a href="/about/"><img class= "img-circle" src="https://img-global-dev.cpcdn.com/001_users/49f312472fe05660/mq70/photo.jpg" alt="Himanshu Walia" width ="150px" border="2"  />
+<p><a href="/about/"><img class= "img-circle" src="/assets/me.png" alt="Himanshu Walia" width ="150px" border="2"  />
 </a></p>
 
 
