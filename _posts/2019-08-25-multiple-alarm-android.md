@@ -48,7 +48,10 @@ Implementation :
 
 <script src="https://gist.github.com/waliahimanshu/f927a9c1745bdd226320630d9fe996ee.js"></script>
 
-Next, up perform long running IO tasks on other thread in broadcast receiver `onReceive` 
+Next up, perform long running IO tasks in `BroadcastReceiver.onReceive`
+
+
+⏭️ [GoAsync]({% post_url 2019-08-27-goasync-broadcast-receiver %})
 
 <hr>
 

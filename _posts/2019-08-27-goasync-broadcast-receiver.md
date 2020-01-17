@@ -3,9 +3,9 @@ layout: post
 title: "Async work on BroadcastReceiver"
 comments: true
 author: "waliahimanshu"
+meta: "android Async on BroadcastReceiver"
 categories: Android
 ---
-
 <b>Problem</b>:
 I cannot perform any long running operation (aka IO operation) inside BroadcastReceiver as it dies immediately after receiving the intent.
 
