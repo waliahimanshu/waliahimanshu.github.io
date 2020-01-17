@@ -1,0 +1,26 @@
+
+
+Interactive rebase : aka squash
+Commands
+git checkout .
+git reset HEAD~ 
+git rebase --interactive xxxxxxxxxxxxx commit id
+
+git push --force --no-verify
+
+
+User r8 issue 
+Paginator delete insert
+Recyclers view scrolling match parent 
+Drawble end 
+Recyclers view set to gone/visible
+Git reorder commit as plus in rebase
+include id replace the included root id
+
+
+
+what does android:clipToPadding="false"
+what is         inflater.inflate(R.layout.gallery_image_selector_fragment, container, false)
+attachtoRootView
+?
+What is app:layout_constrainedWidth="true" ?
