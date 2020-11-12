@@ -9,9 +9,22 @@ categories: Android
 
 ### Notifications done right 
 
-...WIP
+Notifications are a double edge sword, it can accelerate growth and engagement or could lead to immediate un-install of the app.
 
-<hr>
+With each Android OS version, the notification API's are changing and OS is increasingly becoming aware of how apps are notifying the users.
+
+Therefore, it is important to get the notifications right in your app.
+
+### Types of notification
+
+####Transactional:
+which are the notifications which are absolutely necessary  
+
+
+Not Transactions
+
+
+
 Slides : [Rich Android notification](https://speakerdeck.com/waliahimanshu/rich-android-notifications)
 
 <hr>
