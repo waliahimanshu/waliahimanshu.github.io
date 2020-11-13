@@ -4,11 +4,11 @@ title: "Pragmatic Programmer summary"
 comments: true
 author: "waliahimanshu"
 meta: "Pragmatic Programmer summary"
-categories: Android
+categories: Software Engineering Books
 ---
 
 
-# Pragmatic Programmer - Notes
+### Pragmatic Programmer - Notes
 
 ### Chapter 1 - A Pragmatic Philosophy
 
@@ -132,4 +132,43 @@ When writing that Pull request description or a slack message or email.
 Proofread, check for spelling mistakes. omit un-necessary words. Make is clear and short. User code snippets to explain where necessary 
 
 ### Chapter 2 - A Pragmatic Approach
+
+### 8. The Essence of Good Design
+Good design is easier to change .ETC.every design principle out there is a special case of ETC.
+Decoupling? Because by isolating concerns we make each easier to change. ETC.
+Single responsibility ? Because a change in requirements should not affect other un-related modules. ETC.
+Why is naming important? Because good names make code easier to read,
+and you have to read it to change it. ETC!
+
+How to train yourself for ETC. It requires some initial conscious reinforcement. Spend a week or so deliberately
+asking yourself “did the thing I just did make the overall system easier
+or harder to change?” It’s really just thinking about keeping code
+decoupled and cohesive.
+
+### 9. DRY (Don't repeat yourself) - The Evils of Duplication
+Code is ever changing, reuirements change , client change, industry and government regulations change.
+
+Most people assume that maintenance begins when an application is released,
+that maintenance means fixing bugs and enhancing features. This is wrong. Programmers are constantly in maintenance mode. Our
+understanding changes day by day. New requirements arrive and existing
+requirements evolve as we’re heads-down on the project. Perhaps the environment changes. Whatever the reason, maintenance is not a discrete activity, but a routine part of the entire development process.
+
+.....
+
+### 10. Orthogonality
+
+
+### 11. Reversibility
+
+
+### 12. Tracer Bullets
+
+### 13. Prototypes and Post-it Notes
+
+
+### 14. Domain Language
+
+
+### 15. Estimating
+
 
