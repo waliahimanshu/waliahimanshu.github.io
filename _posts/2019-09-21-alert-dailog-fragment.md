@@ -7,6 +7,8 @@ meta: "Alert dialog in Android"
 categories: Android
 ---
 
+{{page.tags | capitalize | join: ', '}}
+
 
 ### Alert dialog
 Use it when you just want to show a `title`, up to three `buttons`, a list of `selectable items`, or a `custom layout`.

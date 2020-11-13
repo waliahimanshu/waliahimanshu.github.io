@@ -4,9 +4,20 @@ title: "Pragmatic Programmer summary"
 comments: true
 author: "waliahimanshu"
 meta: "Pragmatic Programmer summary"
-categories: Software Engineering Books
+categories: Books
 ---
-
+ 
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
 ### Pragmatic Programmer - Notes
 

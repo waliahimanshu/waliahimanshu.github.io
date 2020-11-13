@@ -4,12 +4,12 @@ title: "Team topologies summary"
 comments: true
 author: "waliahimanshu"
 meta: "Team topologies summary"
-categories: Software Engineering Books
+categories: Books
 ---
 
 
-# Team topologies: Organizing Business and Technology Teams for Fast Flow
-# by Manuel Pais and Matthew Skelton - Notes
+### Team topologies: Organizing Business and Technology Teams for Fast Flow
+### by Manuel Pais and Matthew Skelton - Notes
 
 ### Chapter 1 - The problem with org charts
 
