@@ -7,8 +7,7 @@ meta: "Ideation"
 categories: Personal
 ---
 
- 
-<div class="post-categories">
+ <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -19,6 +18,7 @@ categories: Personal
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
+
 
 ### Notes from Joe Rogan podcast with Naval
 
