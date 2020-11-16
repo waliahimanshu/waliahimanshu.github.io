@@ -157,7 +157,7 @@ or harder to change?” It’s really just thinking about keeping code
 decoupled and cohesive.
 
 ### 9. DRY (Don't repeat yourself) - The Evils of Duplication
-Code is ever changing, reuirements change , client change, industry and government regulations change.
+Code is ever changing, requirements change , client change, industry and government regulations change.
 
 Most people assume that maintenance begins when an application is released,
 that maintenance means fixing bugs and enhancing features. This is wrong. Programmers are constantly in maintenance mode. Our
@@ -170,16 +170,114 @@ requirements evolve as we’re heads-down on the project. Perhaps the environmen
 
 
 ### 11. Reversibility
+Requirements,users, and hardware change faster than we can get the software developed
+Most of the time, calls to third-party products are entangled throughout the code. But we really abstracted the idea of a database out—to the point where it simply provides persistence as a service—then you have the flexibility to change horses in midstream
 
+*Flexible Architecture* -> What you can do is make it easy to change. Hide third-party APIs behind your own abstraction layers. Break your code into components: even if you end up deploying them on a single massive server, this approach is a lot easier than taking a monolithic application and splitting it.
+
+But think of code evolution along the same lines as a box full of
+Schrödinger’s cats: every decision results in a different version of the
+future. 
+How many possible futures can your code support? Which ones
+are more likely? 
+How hard will it be to support them when the time comes?
+Dare you open the box?
 
 ### 12. Tracer Bullets
+Particularly when you’re building something that hasn’t been built before. We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal
+
+Tracer bullets work because they operate in the same environment and under
+the same constraints as the real bullets. They get to the target fast, so the
+gunner gets immediate feedback. They’re a relatively cheap solution.
+
+Tracer code is not disposable: you write it for keeps. It contains all the error
+checking, structuring, documentation, and self-checking that any piece of
+production code has. It simply is not fully functional. However, once you have
+achieved an end-to-end connection among the components of your system,
+you can check how close to the target you are, adjusting if necessary. Once
+you’re on target, adding functionality is easy.
+Tracer development is consistent with the idea that a project is never finished: there will always be changes required and functions to add. It is an incremental approach.
+The tracer code approach has many advantages
+
+1. Users get to see something working early
+2. Developers build a structure to work in
+3. You have an integration platform
+4. You have something to demonstrate
+5. You have a better feel for progress
+
+#### Tracer Code versus Prototyping
+Prototyping generates disposable code. Tracer code is lean but complete, and forms part of the skeleton of the final system. Think of prototyping as the reconnaissance and intelligence gathering that takes place before a single tracer bullet is fired.
 
 ### 13. Prototypes and Post-it Notes
+We tend to think of prototypes as code-based, but they don’t always have to
+be. Like the car makers, we can build prototypes out of different materials.
+Post-it notes are great for prototyping dynamic things such as workflow and
+application logic.
 
+But if you find yourself in an environment where you cannot give up the
+details, then you need to ask yourself if you are really building a prototype
+at all. Perhaps a tracer bullet style of development would be more appropriate
+in this case
+
+Anything you aren’t comfortable with. You can prototype:
+• Architecture
+• New functionality in an existing system
+• Structure or contents of external data
+• Third-party tools or components
+• Performance issues
+• User interface design
+
+Prototyping is a learning experience. Its value lies not in the code produced,
+but in the lessons learned. That’s really the point of prototyping.
+
+*How to Use Prototypes*
+When building a prototype, what details can you ignore?
+1. Correctness - fake data
+2. Robustness - Edge/error cases not covered
+3. Style - may skip the guidelines, process etc
+
+Prototypes gloss over details, and focus in on specific aspects of the system being considere.
+
+#### How Not to Use Prototypes
+Code-based prototyping, make sure that everyone understands that you are writing disposable code.
+Prototypes can be deceptively attractive to people who don’t know that they are just prototypes. You
+must make it very clear that this code is disposable, incomplete, and unable to be completed.
 
 ### 14. Domain Language
+So when you force a business person to sign off on a requirements document, or get
+them to agree to a set of Cucumber features, you’re doing the equivalent of getting
+them to check the spelling in an essay written in Sumerian. They’ll make some random
+changes to save face and sign it off to get you out of their office.
+Give them code that runs, however, and they can play with it. That’s where their real
+needs will surface.
+
+Document using Test Rspec, cucumber, ansible or YAML.
 
 
 ### 15. Estimating
 
+To some extent, all answers are estimates. It’s just that some are more
+accurate than others. So the first question you have to ask yourself when
+someone asks you for an estimate is the context in which your answer will
+be taken. Do they need high accuracy, or are they looking for a ballpark figure?
 
+1. Understand What’s Being Asked
+2. Break the Model into Components
+3. Give Each Parameter a Value
+4. Keep Track of Your Estimating Prowess
+5. Check requirements
+6. Analyze risk (and prioritize riskiest items earlier)
+7. Design, implement, integrate
+8. Validate with the users
+
+Based on that experience, you can refine your initial guess on the number of iterations and what can be included in
+each.T he refinement gets better and better each time, and confidence in the
+schedule grows along with it. This kind of estimating is often done during the
+team’s review at the end of each iterative cycle.
+
+This may not be popular with management, who typically want a single, hardand- fast number before the project even starts. You’ll have to help them understand that the team, their productivity, and the environment will determine the schedule. By formalizing this, and refining the schedule as part of each iteration, you’ll be giving them the most accurate scheduling
+estimates you can.
+
+#### What to Say When Asked for an Estimate
+You say “I’ll get back to you.”
+You almost always get better results if you slow the process down and spend some time going through the steps we describe in this section.
