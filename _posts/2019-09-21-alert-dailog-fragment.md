@@ -7,11 +7,10 @@ meta: "Alert dialog in Android"
 categories: Android
 ---
 
-{{page.tags | capitalize | join: ', '}}
-
-
 ### Alert dialog
 Use it when you just want to show a `title`, up to three `buttons`, a list of `selectable items`, or a `custom layout`.
+
+{% include category_include.html %}
 
 Also `DatePickerDialog` and `TimePickerDialog` are available with a pre-defined android style widgets, that allows the user to select a date or time.
 

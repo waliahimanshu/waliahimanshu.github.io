@@ -9,6 +9,9 @@ categories: Android
 
 ### Notifications done right 
 
+{% include category_include.html %}
+
+
 Notifications are a double edge sword, it can accelerate growth and engagement or could lead to immediate un-install of the app.
 
 With each Android OS version, the notification API's are changing and OS is increasingly becoming aware of how apps are notifying the users.

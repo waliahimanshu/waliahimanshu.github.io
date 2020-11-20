@@ -7,8 +7,9 @@ meta: "Team topologies summary"
 categories: Books
 ---
 
+### Team topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton
 
-### Team topologies: Organizing Business and Technology Teams for Fast Flow by Manuel Pais and Matthew Skelton - Notes
+{% include category_include.html %}
 
 ### Chapter 1 - The problem with org charts
 
@@ -48,9 +49,7 @@ What is conway's Law :
 “Organizations which design systems .. . are
 constrained to produce designs which are copies of the communication structures ofthese organizations.”
 
-
 ### Chapter 2: Conway's Law and Why It Matters".
-
 
 
 ### Chapter 3: Team-First Thinking 
@@ -171,3 +170,6 @@ Example : Spotify—talked about how “squads in a tribe are all physically in 
 
 #### Warning: Engineering Practices Are Foundational
 At the end of the day, technology teams need to invest in proven team practices like continuous delivery, test-first development, and a focus on software operability and releasability. Without them, all the effort invested in a team-first approach to work and flow will be greatly undermined.
+
+
+### Chapter 4 Static team topologies 

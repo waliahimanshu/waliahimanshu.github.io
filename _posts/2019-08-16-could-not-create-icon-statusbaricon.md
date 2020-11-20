@@ -10,6 +10,8 @@ categories: Android
 <b>Exception</b>:
 *android.app.RemoteServiceException: Bad notification posted from package : Couldn't create icon: StatusBarIcon*
 
+{% include category_include.html %}
+
 ### Fix
  *Use alpha only icon.*
 

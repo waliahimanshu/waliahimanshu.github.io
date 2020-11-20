@@ -10,6 +10,8 @@ categories: Android
 <b>Problem</b>:
 I am scheduling multiple alarms using `Alarm  Manager`, but only one gets triggered.
 
+{% include category_include.html %}
+
 
 ![image-title-here](/assets/arash-asghari-D58BEHSeX64-unsplash.jpg)
 

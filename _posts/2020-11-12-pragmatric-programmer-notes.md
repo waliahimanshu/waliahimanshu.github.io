@@ -1,25 +1,15 @@
 ---
 layout: post
-title: "Pragmatic Programmer summary"
+title: "Pragmatic programmer summary"
 comments: true
 author: "waliahimanshu"
 meta: "Pragmatic Programmer summary"
 categories: Books
 ---
- 
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 ### Pragmatic Programmer - Notes
+
+{% include category_include.html %}
 
 ### Chapter 1 - A Pragmatic Philosophy
 
@@ -281,3 +271,4 @@ estimates you can.
 #### What to Say When Asked for an Estimate
 You say “I’ll get back to you.”
 You almost always get better results if you slow the process down and spend some time going through the steps we describe in this section.
+

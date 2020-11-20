@@ -6,8 +6,12 @@ author: "waliahimanshu"
 meta: "android Async on BroadcastReceiver"
 categories: Android
 ---
+
 <b>Problem</b>:
 I cannot perform any long running operation (aka IO operation) inside BroadcastReceiver as it dies immediately after receiving the intent.
+
+{% include category_include.html %}
+
 
 <b>Why</b>
 `BroadcastReceiver.onReceive` always run in the UIthread (also main thread).
