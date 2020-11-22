@@ -173,3 +173,123 @@ At the end of the day, technology teams need to invest in proven team practices 
 
 
 ### Chapter 4 Static team topologies 
+
+#### Team Anti-Patterns
+The first anti-pattern is ad hoc team design. This includes teams that have grown too large and been broken up as the communication overhead starts taking a toll.
+The other common anti-pattern is shuffling team members. This leads to extremely volatile team assembled on a project basis and disassembled immediately afterward,
+perhaps leaving one or two engineers behind to handle the “hardening” and maintenance phases of the application(s).
+
+Organizations must design teams intentionally by asking these questions: 
+Given our skills, constraints, cultural and engineering maturity, desired software architecture, and
+business goals, which team topology will help us deliver results faster and safer?
+
+#### Design for Flow of Change
+Technical staff at Spotify are arranged into small, autonomous, cross-functional squads, each with a long-term mission and comprised of around five to nine people.
+Several squads that work on similar areas are collected into a tribe, a sort of affinity grouping of squads. The squads within a tribe are familiar with the work of other squads and coordinate inside the tribe.
+
+
+Engineers within a tribe with similar skills and competencies share practices through a chapter. So, for example, all the testers across six squads in a tribe could be part of a testers chapter. Line management also happens via chapters, but the line manager (the chapter lead) is also part of the day-to-day work of a squad, not an aloof manager. Spotify also uses a more diffuse “guild,” akin to a community of practice, that can include people
+from across multiple tribes, chapters, and squads. “Chapters and guilds . . . [are] the glue
+that keeps the company together, [providing] economies of scale without sacrificing too
+
+#### Shape Team Intercommunication to Enable Flow and Sensing
+organizations seem to assume that software delivery is a one-way process, leading from specification to design, from
+design to coding, from coding to testing and releasing, and from releasing to business as usual (BAU) operation
+
+Assumption that the software-development process has little or nothing to learn from how the software runs
+in the live environment is fundamentally flawed. On the contrary, organizations that expose software-development teams to the software running in the live environment
+tend to address user-visible and operational problems much more rapidly compared to their siloed competitors 
+
+we must . . . ensure delivery teams are cross-functional, with all the skills necessary to design, develop, test, deploy, and operate the system on the same team.” 
+
+Organizations that value information feedback from live (production) systems can not only improve their software more rapidly but also develop a heightened
+responsiveness to customers and users.
+
+#### DevOps and the DevOps Topologies
+
+“wall of confusion.” - >
+In dev ops word when with software releases being thrown over the “fence” or
+“wall” and communication mostly accomplished through tickets
+
+The problem was that many organizations adopting Agile were not explicitly addressing the gap between software delivery speed and operations teams’ capacity to provide resources or deploy updates. The misalignment between teams became more and more evident, leading to poor behaviors and lack of
+focus on the flow of work.
+
+#### DevOps Topologies
+The DevOps Topologies reflect two key ideas: 
+(1) There is no one-size-fits-all approach to structuring teams for DevOps success. The suitability and effectiveness of
+any given topology depends on the organization’s context. (2) There are several topologies known to be detrimental (anti-patterns) to DevOps success, as they overlook
+or go against core tenets of DevOps. 
+In short, there is no “right” topology, but several “bad” topologies for any one organization.
+
+#### Successful Team Patterns
+
+#### Feature Teams Require High-Engineering Maturity and Trust
+We consider a feature team to be a cross- functional, cross-component team that can take a customer facing feature from idea all the way to production, making them available to customers and, ideally, monitoring its
+usage and performance. Are these a pattern or an anti-pattern? As you might have guessed by now, it depends.
+
+A cross-functional feature team can bring high value to an organization by delivering cross-component, customer-centric features much faster than multiple component teams making their own changes and synchronizing into a single release. But this can only happen when the feature team is self-sufficient, meaning they are able to deliver features into production without waiting for other teams.
+
+The feature team typically needs to touch multiple codebases, which might be owned by different component teams. If the team does not have a high degree of engineering maturity, they might take shortcuts, such as not automating tests for new user workflows
+or not following the “boy-scout rule” (leaving the code better than they found it). Over time, this leads to a breakdown of trust between teams as technical debt increases and slows down delivery speed.
+
+#### Product Teams Need a Support System
+
+The key for the team to remain autonomous is for external dependencies to be non-blocking, meaning that new features don’t sit idle, waiting for something to happen
+beyond the control of the team. For example, it’s extremely difficult to ensure that a separate QA team will be available to evaluate a new feature exactly when the product
+team finishes it. 
+Non-blocking dependencies often take the form of self-service capabilities (e.g, around provisioning test environments, creating deployment pipelines, monitoring, etc.) developed and maintained by other teams. These can be consumed independently by the
+product teams when they need them.
+
+
+#### Cloud Teams Don’t Create Application Infrastructure
+
+Product teams need autonomy to provision their own environments and resources in the cloud, creating new images and templates where necessary. The cloud team might still own the provisioning process—ensuring that the necessary controls, policies, and
+auditing are in place
+
+#### SRE Makes Sense at Scale
+
+Site Reliability Engineering is an approach to the operation and improvement of software applications pioneered by Google to deal with their global, multi-million-user systems. If adopted in full, SRE is significantly different from IT operations of the past, due to its focus on the “error budget” (namely defining what is an acceptable amount of downtime)
+and the ability of SRE teams to push back on poor software.
+
+People on SRE teams need excellent coding skills and—crucially—a strong drive (and bandwidth) to automate repetitive Ops tasks using code, thereby continually reducing toil.
+
+The SRE model sets up a healthy and productive interaction between the development and SRE teams by using service-level objectives (SLOs) and error budgets to
+balance the speed of new features with whatever work is needed to make the software
+reliable.
+
+>SRE teams are not essential; they are optional.
+
+
+The relationship between an SRE team and an
+application-development team changes at different
+points of the software’s life and even month by month
+
+Initially, the application development
+team alone builds and runs the software in production
+until the scale merits SRE help. 
+During a second stage as the application usage increases,
+SRE provides guidance (represented in green) to the
+application development team on how to make the
+application work better at global scale. Later, SRE becomes fully involved by running and supporting the application (but still collaborating with the application team) when the
+scale merits it At this point, the product owner for the application must decide a suitable service-level objective with a corresponding error budget. If at
+some point  the application becomes too difficult to support due to lack of operability, or if the application usage drops off, the application team takes on
+operational responsibility again. 
+
+> that building and running software systems is a sociotechnical activity, not an assembly line in a factory.    
+
+#### Considerations When Choosing a Topology
+
+1. Technical and Cultural Maturity
+2. Organization Size, Software Scale, and Engineering Maturity -> Low maturity organizations will need time to acquire the engineering and product development capabilities required for autonomous end-to-end teams. Meanwhile, more specialized teams (development, operations, security, and others) are an acceptable trade-
+off, as long as they collaborate closely to minimize wait times and quickly address issues.
+
+3.Splitting Responsibilities to Break Down Silos
+
+Sometimes we can remove or lessen dependencies on specific teams by breaking down their set of responsibilities and empowering other teams to take some of them on. For
+example, a pattern increasingly adopted in many organizations over the past few years has been to separate the activities of database development (DB Dev) from database administration (DBA).
+
+4.Dependencies and Wait Times between Teams
+Spotify relies on a simple spreadsheet to detect and track interdependencies
+between squads and tribes. It highlights whether a dependency is on a squad
+within the same tribe (acceptable) or in a different tribe (potentially a warning that
+team design or work assignment is wrong).

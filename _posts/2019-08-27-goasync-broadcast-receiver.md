@@ -12,7 +12,6 @@ I cannot perform any long running operation (aka IO operation) inside BroadcastR
 
 {% include category_include.html %}
 
-
 <b>Why</b>
 `BroadcastReceiver.onReceive` always run in the UIthread (also main thread).
 That means, you can not perform any long running operation.

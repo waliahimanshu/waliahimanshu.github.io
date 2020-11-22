@@ -7,9 +7,9 @@ meta: "Ideation"
 categories: Personal
 ---
 
-{% include category_include.html %}
-
 ### Notes from Joe Rogan podcast with Naval
+
+{% include category_include.html %}
 
 Top three things everyone seeks : 
 
