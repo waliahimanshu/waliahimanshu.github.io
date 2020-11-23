@@ -272,3 +272,51 @@ estimates you can.
 You say “I’ll get back to you.”
 You almost always get better results if you slow the process down and spend some time going through the steps we describe in this section.
 
+<hr>
+
+## The basic tools
+
+#### Plain text
+
+Keep knowledge in plain text.
+HTML, JSON, YAML,and so on are all plain text. All fundamental protocols on the net, such as HTTP, SMTP, IMAP, are all plain text.
+
+• Insurance against obsolescence
+• Leverage existing tools
+• Easier testing
+
+#### Shell games
+For a programmer manipulating files of text, that workbench is the command
+shell.
+Shell, you can launch applications, debuggers, browsers,
+editors, and utilities. You can search for files, query the status of the system,and filter output. And by programming the shell, you can build complex macro
+commands for activities you perform often
+
+A benefit of GUIs is WYSIWYG—what you see is what
+you get. The disadvantage is WYSIAYG—what you see is all you get
+
+> Use the Power of Command Shells
+Gain familiarity with the shell, and you’ll find your productivity soaring.
+Color theme, alias, command completion, macros to do repetitive tasks
+
+#### Power Editing
+use as many editors as you want. We’d just like you to be working toward fluency in each.
+> Achieve Editor Fluency
+
+• When editing text, move and make selections by character, word, line, and paragraph.
+• When editing code, move by various syntactic units (matching delimiters, functions, modules, …).
+• Re-indent code following changes.
+• Comment and uncomment blocks of code with a single command.
+• Undo and redo changes.
+• Split the editor window into multiple panels, and navigate between them.
+• Navigate to a particular line number.
+• Sort selected lines.
+• Search for both strings and regular expressions, and repeat previous searches.
+• Temporarily create multiple cursors based on a selection or on a pattern match, and edit the text at each in parallel.
+• Display compilation errors in the current project.
+• Run the current project’s tests
+
+#### Version Control
+>Tip 28 Always Use Version Control and use it for everything. documentation,
+phone number lists, memos to vendors, makefiles, build and release procedures,
+that little shell script that tidies up log files—everything
